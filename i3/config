@@ -65,6 +65,8 @@ bindsym $mod+Shift+f fullscreen toggle
 bindsym $mod+F1 exec setxkbmap -layout tr
 bindsym $mod+F2 exec setxkbmap -layout us
 
+bindsym $mod+L exec i3-msg exit
+
 # WINDOW OPERATIONS
 # =============================================================================
 
