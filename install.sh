@@ -78,3 +78,5 @@ cp .zshrc ~/.zshrc
 
 print "$COLOR_BLUE" "Settings zsh to default terminal"
 chsh -s $(which zsh)
+
+echo "exec i3" >> ~/.xinitrc
